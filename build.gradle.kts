@@ -26,6 +26,10 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.4.3")
+	implementation("com.mysql:mysql-connector-j:9.2.0")
+
 }
 
 kotlin {
