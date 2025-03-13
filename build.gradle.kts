@@ -29,6 +29,7 @@ dependencies {
 
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.4.3")
 	implementation("com.mysql:mysql-connector-j:9.2.0")
+	implementation("com.github.dozermapper:dozer-core:7.0.0")
 
 }
 
