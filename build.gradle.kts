@@ -31,6 +31,10 @@ dependencies {
 	implementation("com.mysql:mysql-connector-j:9.2.0")
 	implementation("com.github.dozermapper:dozer-core:7.0.0")
 
+	// Somehow it is not working
+//	implementation("org.flywaydb:flyway-core:11.4.0")
+//	implementation("org.flywaydb:flyway-mysql:11.4.0")
+
 }
 
 kotlin {
